@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Frontend_supermarket/static/css/main.e0a46010.css",
+    "main.js": "/Frontend_supermarket/static/js/main.34b30502.js",
+    "static/js/787.de633762.chunk.js": "/Frontend_supermarket/static/js/787.de633762.chunk.js",
+    "index.html": "/Frontend_supermarket/index.html",
+    "main.e0a46010.css.map": "/Frontend_supermarket/static/css/main.e0a46010.css.map",
+    "main.34b30502.js.map": "/Frontend_supermarket/static/js/main.34b30502.js.map",
+    "787.de633762.chunk.js.map": "/Frontend_supermarket/static/js/787.de633762.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0a46010.css",
+    "static/js/main.34b30502.js"
+  ]
+}
