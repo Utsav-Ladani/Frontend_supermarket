@@ -1,11 +1,10 @@
 import React from 'react'
 import './App.css';
 import { Route, Routes } from 'react-router-dom'
-// import Login from './Pages/login';
-// import Register from './Pages/register';
+import SignIn from './Pages/SignIn';
+import SignUp from './Pages/SignUp';
 import Home from './Pages/Home';
-import Store from './Pages/Store';
-import Items from './Pages/Items';
+import Category from './Pages/Category';
 import Cart from './Pages/Cart';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
@@ -23,11 +22,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Routes>
+        <Route path='/signin' element={<SignIn />} />
+        <Route path='/signup' element={<SignUp />} />
         <Route path='/' element={<Home />} />
-        {/* <Route path='/login' element={<Login />} />
-      <Route path='/register' element={<Register />} /> */}
-        <Route path='/Store' element={<Store />} />
-        <Route path='/inventory' element={<Items />} />
+        <Route path='/category' element={<Category />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/*' element={<Home />} />
       </Routes>
